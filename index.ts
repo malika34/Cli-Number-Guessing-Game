@@ -8,6 +8,8 @@ import inquirer from "inquirer";
 
 //3) compare user input with computer generated number and show result
 
+console.log("Welcome to Number Guessing Game");
+
 const randomnumber = Math.floor(Math.random() * 6 + 1);
 
 const answers = await inquirer.prompt([
